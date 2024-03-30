@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.imooc.router",
+    "module": "router-gradle-plugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "router-gradle-plugin-1.0.0.jar",
+          "url": "router-gradle-plugin-1.0.0.jar",
+          "size": 5786,
+          "sha512": "e0bbe34b023881a9acf8afe3cbadcf59770577bf825f75d6d539d393b387034cf0fcb38c364b3d927ae5412672fac519d5c638f1525ce8a8a68745af0f4502d8",
+          "sha256": "6b1f9beb4cafa2156edba9f678afa343fc8e1317cf2dd1b9cb820814d177e6d4",
+          "sha1": "3a5ade0e4aab5a9ebab2cfb83032b00057b1e195",
+          "md5": "1ee21c1d09f3d5b358bd6424c3f34d7e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "router-gradle-plugin-1.0.0.jar",
+          "url": "router-gradle-plugin-1.0.0.jar",
+          "size": 5786,
+          "sha512": "e0bbe34b023881a9acf8afe3cbadcf59770577bf825f75d6d539d393b387034cf0fcb38c364b3d927ae5412672fac519d5c638f1525ce8a8a68745af0f4502d8",
+          "sha256": "6b1f9beb4cafa2156edba9f678afa343fc8e1317cf2dd1b9cb820814d177e6d4",
+          "sha1": "3a5ade0e4aab5a9ebab2cfb83032b00057b1e195",
+          "md5": "1ee21c1d09f3d5b358bd6424c3f34d7e"
+        }
+      ]
+    }
+  ]
+}
